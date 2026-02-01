@@ -6,7 +6,6 @@
         {
             Console.WriteLine("Hello, World!");
             Human human = new Human("Jonas","Jonaitis",2001);
-            //Human human = new Human();
             human.Name = "Jonas";
             human.LastName = "Jonaitis";
             human.BirthYear = 2001;
@@ -32,7 +31,7 @@
             //customer.PrintDetails();
             //PrintDetails(employee);
             //PrintDetails(customer);
-
+            Console.WriteLine("Naujas pakeitimas");
         }
         static void PrintDetails(Human human)
         {

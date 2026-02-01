@@ -16,6 +16,7 @@ namespace DGMokymas6
         {
             base.PrintDetails();
             Console.WriteLine("I am actually a Customer, don't you know I ordered " + OrderCount);
+            Console.WriteLine("Something to add new too");
         }
     }
 }
