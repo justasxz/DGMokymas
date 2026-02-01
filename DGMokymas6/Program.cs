@@ -32,7 +32,7 @@
             //PrintDetails(employee);
             //PrintDetails(customer);
             Console.WriteLine("Naujas pakeitimas");
-            Console.WriteLine("Kito Zmogaus pakeitimas");
+            Console.WriteLine("Kito zmogaus pakeitimas");
             Console.WriteLine("Dev sakos pakeitimas");
             Console.WriteLine("Dev antras");
         }
