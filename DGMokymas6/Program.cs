@@ -32,7 +32,7 @@
             //PrintDetails(employee);
             //PrintDetails(customer);
             Console.WriteLine("Naujas pakeitimas");
-            Console.WriteLine("Kito Zmogaus pakeitimas");
+            Console.WriteLine("Kito zmogaus pakeitimas");
         }
         static void PrintDetails(Human human)
         {
