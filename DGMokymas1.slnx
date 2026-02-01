@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="DGMokymai7/DGMokymai7.csproj" Id="1a719632-e202-443e-971e-fa7775188d3a" />
+  <Project Path="DGMokymas1/DGMokymas1.csproj" />
+  <Project Path="DGMokymas2/DGMokymas2.csproj" />
+  <Project Path="DGMokymas3/DGMokymas3.csproj" Id="cbbd1ba9-bbd4-49a5-b453-ef7919f4af9b" />
+  <Project Path="DGMokymas4/DGMokymas4.csproj" Id="de625f40-1e8d-4e74-8387-6302e87472a5" />
+  <Project Path="DGMokymas5/DGMokymas5.csproj" Id="dd325e0b-9510-463a-a899-6246089d85f4" />
+  <Project Path="DGMokymas6/DGMokymas6.csproj" Id="d9bb412a-1fd1-4c5f-ab2a-87787902d243" />
+</Solution>
