@@ -32,6 +32,7 @@
             //PrintDetails(employee);
             //PrintDetails(customer);
             Console.WriteLine("Naujas pakeitimas");
+            Console.WriteLine("Kito Zmogaus pakeitimas");
         }
         static void PrintDetails(Human human)
         {
