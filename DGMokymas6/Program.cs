@@ -16,7 +16,7 @@
             //employee.BirthYear = 1997;
             //employee.Salary = 2000;
             Console.WriteLine(employee.GetAge());
-
+            Console.WriteLine("Dar vienas commit 2");
             //Customer customer = new Customer();
             //customer.BirthYear = 1992;
             //customer.OrderCount = 15;
