@@ -33,6 +33,7 @@
             //PrintDetails(customer);
             Console.WriteLine("Naujas pakeitimas");
             Console.WriteLine("Kito zmogaus pakeitimas");
+            Console.WriteLine("Pakeitimas Dovydui");
         }
         static void PrintDetails(Human human)
         {
