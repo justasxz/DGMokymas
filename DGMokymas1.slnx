@@ -6,4 +6,5 @@
   <Project Path="DGMokymas4/DGMokymas4.csproj" Id="de625f40-1e8d-4e74-8387-6302e87472a5" />
   <Project Path="DGMokymas5/DGMokymas5.csproj" Id="dd325e0b-9510-463a-a899-6246089d85f4" />
   <Project Path="DGMokymas6/DGMokymas6.csproj" Id="d9bb412a-1fd1-4c5f-ab2a-87787902d243" />
+  <Project Path="DGMokymas8_API/DGMokymas8_API.csproj" Id="814218c2-ceba-4788-8332-3de71ad6468f" />
 </Solution>
