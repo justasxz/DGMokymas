@@ -1,4 +1,6 @@
+using DGMokymas8_API.DTOS;
 using Microsoft.AspNetCore.Mvc;
+using System.Runtime.InteropServices;
 
 namespace DGMokymas8_API.Controllers
 {
@@ -23,12 +25,21 @@ namespace DGMokymas8_API.Controllers
             .ToArray();
         }
 
-        [HttpGet("vardukas")] // endpoint
-        public string GetVardas()
+        [HttpPost("vardukas")] // endpoint
+        public string PostVardas(PersonDTO zmogus) // Get mes naudojam atskirus parametrus su Post visad naudojam faila/kita klase, nebent yra tik vienas parametras
         {
             //jeigu klaida
             //return BadRequest("Ivyko klaida")
-            return "Tomas";
+            return $"Sveiki, {zmogus.Vardas} {zmogus.Pavarde}";
+        }
+
+        [HttpGet("vardukas")] // endpoint
+        public async Task<IActionResult> GetVardas(string vardas, string pavarde) 
+        {
+            //jeigu klaida
+            //return BadRequest("Ivyko klaida")
+            var zmogus = new PersonDTO { Vardas = vardas, Pavarde = pavarde };
+            return Ok(zmogus);
         }
     }
 }
